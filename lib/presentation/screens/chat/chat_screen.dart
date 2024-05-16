@@ -16,11 +16,7 @@ class ChatScreen extends StatelessWidget {
       appBar: AppBar(
         leading: const Padding(
           padding: EdgeInsets.all(3.0),
-          child: CircleAvatar(
-            backgroundImage: NetworkImage(
-              'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYK9P2YoSnZC2mn04Ms1KIfYLJiFd_nm-IhmRT7LXOoA&s',
-            ),
-          ),
+          child: Image(image: AssetImage('icons/oracle_logo.png')),
         ),
         title: const Text('The oracle'),
       ),
